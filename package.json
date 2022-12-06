@@ -1,0 +1,26 @@
+{
+  "name": "alchemy-nft-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest",
+    "start": "node src/index.js",
+    "floor": "node src/modules/floor-price-bot.js",
+    "nft-tracker": "node src/modules/nft-tracker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "alchemy-sdk": "^2.1.0",
+    "lowdb": "^3.0.0",
+    "node-fetch": "^3.2.10",
+    "nodemailer": "^6.8.0",
+    "web3": "^1.8.0"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
